@@ -1,26 +1,38 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+// import { Navigation } from 'swiper/modules';
 import 'swiper/css';
-import 'swiper/css/navigation';
+
 
 
 import { Card } from 'components/Card/Card';
+import { SwiperNavButtons } from 'components/SwiperNavButtons/SwiperNavButtons';
 
-export const SwiperExample = ({pictures}) => {
-    return (
+
+export const SwiperExample = ({ pictures }) => {
+    
+
+    return (<>
+         
+          <h1>Categories</h1>
         <Swiper
-            modules={[Navigation]}
+        // modules={[Navigation]}
       spaceBetween={24}
-            slidesPerView={4}
-            navigation
-      onSlideChange={() => console.log('slide change')}
-      onSwiper={(swiper) => console.log(swiper)}
+        slidesPerView={4}
+            
+    //    onSlideChange={() => console.log('slide change')}
+    //   onSwiper={(swiper) => console.log(swiper)}
         >
+           
+           
+                <SwiperNavButtons  />
+            
+           
             {pictures.map((picture)=>(
-                <SwiperSlide><Card key={picture} picture={picture} /></SwiperSlide>
+                <SwiperSlide key={picture}><Card  picture={picture} /></SwiperSlide>
       
                 ))}
     
-    </Swiper>
+        </Swiper>
+        </>
     )
 }

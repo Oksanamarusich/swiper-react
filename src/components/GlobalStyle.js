@@ -67,6 +67,16 @@ button{
   height: 100vh;
   background: rgba(0,0,0,0.5);
 }
+.swiper{
+  margin-top:20px;
+}
+/* .swiper .res-slide {
+  min-width: 300px;
+  max-width: 400px;
+  min-height: 350px;
+  border: 2px solid hsl(210, 100%, 50%);
+  border-radius: 20px;
+} */
 
 `;
 
