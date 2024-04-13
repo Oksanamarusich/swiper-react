@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/swiper-react/static/css/main.5a271d7a.css",
-    "main.js": "/swiper-react/static/js/main.060310ea.js",
+    "main.css": "/swiper-react/static/css/main.afe73c40.css",
+    "main.js": "/swiper-react/static/js/main.79ed8e23.js",
     "static/media/png": "/swiper-react/static/media/5f74c0334fcf9558e1e1902ce49bdac5.b1858a912e860b2ef3ce.png",
     "static/media/beautiful-straw-hat-yellow-vibrant-vivid-background-top-view-Photoroom 1 (1).png": "/swiper-react/static/media/beautiful-straw-hat-yellow-vibrant-vivid-background-top-view-Photoroom 1 (1).b7b2e4060a2e132699c4.png",
     "static/media/reusable-shopping-bags-white-eco-bag-mockup-Photoroom 1 (2).png": "/swiper-react/static/media/reusable-shopping-bags-white-eco-bag-mockup-Photoroom 1 (2).2be2aa05c58b993a9306.png",
@@ -9,11 +9,11 @@
     "static/media/Subtract.png": "/swiper-react/static/media/Subtract.2edc1e296d9a9e228398.png",
     "static/media/jewellery-earrings-background-with-place-text-banner-fashion-accessories-Photoroom 1 (1).png": "/swiper-react/static/media/jewellery-earrings-background-with-place-text-banner-fashion-accessories-Photoroom 1 (1).5c5f6ac2054da1c5fd68.png",
     "index.html": "/swiper-react/index.html",
-    "main.5a271d7a.css.map": "/swiper-react/static/css/main.5a271d7a.css.map",
-    "main.060310ea.js.map": "/swiper-react/static/js/main.060310ea.js.map"
+    "main.afe73c40.css.map": "/swiper-react/static/css/main.afe73c40.css.map",
+    "main.79ed8e23.js.map": "/swiper-react/static/js/main.79ed8e23.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a271d7a.css",
-    "static/js/main.060310ea.js"
+    "static/css/main.afe73c40.css",
+    "static/js/main.79ed8e23.js"
   ]
 }
