@@ -1,11 +1,12 @@
 
-import { CardWrapper } from "./Card.styled"
+import { CardWrapper, WrapperSlide } from "./Card.styled"
 
 export const Card = ({picture}) => {
-    return (<div>
+    return (<WrapperSlide>
         <CardWrapper>
             <img src={picture} alt="acessories"/>
-            </CardWrapper>
-        <p></p>
-    </div>)
+        </CardWrapper>
+        
+        <p>Eco bag</p>
+    </WrapperSlide>)
 }
